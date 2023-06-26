@@ -1,0 +1,26 @@
+{
+  "name": "@test/my-utils",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "庞娟 <pangjuan@cvte.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/my-utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://artifactory.gz.cvte.cn/artifactory/api/npm/cvte-npm-registry/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.gz.cvte.cn:pangjuan/iot-dev-config.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/my-utils.test.js"
+  }
+}
