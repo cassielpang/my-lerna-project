@@ -1,6 +1,6 @@
 {
   "name": "my-react-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "庞娟 <pangjuan@cvte.com>",
   "homepage": "",
@@ -24,6 +24,6 @@
     "test": "node ./__tests__/my-react-component.test.js"
   },
   "dependencies": {
-    "@test/my-utils": "^0.0.1"
+    "@test/my-utils": "^0.0.2"
   }
 }
