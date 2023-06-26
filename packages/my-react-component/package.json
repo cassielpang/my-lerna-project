@@ -21,7 +21,8 @@
     "url": "git@gitlab.gz.cvte.cn:pangjuan/iot-dev-config.git"
   },
   "scripts": {
-    "test": "node ./__tests__/my-react-component.test.js"
+    "test": "node ./__tests__/my-react-component.test.js",
+    "dev": "node ./lib/my-react-component.js"
   },
   "dependencies": {
     "@test/my-utils": "^0.0.2"

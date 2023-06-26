@@ -21,6 +21,7 @@
     "url": "git@gitlab.gz.cvte.cn:pangjuan/iot-dev-config.git"
   },
   "scripts": {
-    "test": "node ./__tests__/my-utils.test.js"
+    "test": "node ./__tests__/my-utils.test.js",
+    "dev": "node ./lib/my-utils.js"
   }
 }
